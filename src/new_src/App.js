@@ -57,11 +57,11 @@ class App extends Component {
 					</Modal.Header>
 					<Modal.Body>
 						<h4>How to Play</h4>
-						<p>You start with 100 chips. Click the 'New Game' button to play. Each game will cost 5 chips. You will get dealt 5 cards. After reviewing your hand you can click on a card to hold it. Then click the 'Deal' button and exchange any cards you did not hold for new cards. If you have a winning hand you will win chips! One deck is used and is shuffled after each game. Chip totals will be saved in your browser so you can always pick up from where you left off.</p>
+						<p>You start with 100 chips. Click the 'New Game' button to play. Each game will cost 5 chips. You will get dealt 4 cards. After reviewing your hand you can click on a card to hold it. Then click the 'Deal' button and exchange any cards you did not hold for new cards. If you have a winning hand you will win chips! One deck is used and is shuffled after each game. Chip totals will be saved in your browser so you can always pick up from where you left off.</p>
 
 						<h4>Winning Hands</h4>
 						<p>
-							Royal Flush - 4000 chips<br />
+							Royal Flush - 500 chips<br />
 							Straight Flush - 250 chips<br />
 							4 of a Kind - 125 chips<br />
 							Full House - 45 chips<br />
