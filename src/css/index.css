@@ -1,0 +1,182 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-size: 1.5em;
+	font-family: sans-serif;
+	background-image: url('../images/background.jpg');
+	background-repeat: repeat;
+}
+
+#app {
+	text-align: center;
+	min-width: 375px;
+	max-width: 500px;
+	margin: 0 auto;
+	background-image: url('../images/felt.jpg');
+	background-repeat: repeat;
+}
+
+#app-header {
+	background-color: #222222;
+	padding: 0px 10px 10px 10px;
+	color: white;
+}
+
+#title {
+	font-family: 'Ewert', cursive;
+	font-size: 48px;
+	margin-bottom: 0px;
+}
+
+#footer {
+	color: #FFFFFF;
+	font-size: 1.1em;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-align: right;
+	background-color: #000000;
+}
+
+.react-logo {
+	animation: App-logo-spin infinite 20s linear;
+	height: 32px;
+}
+
+@keyframes App-logo-spin {
+	from { transform: rotate(0deg); }
+	to { transform: rotate(360deg); }
+}
+
+/* Customize Bootstrap Defaults */
+
+.btn-outline-secondary {
+	border: 1px solid #FFFFFF;
+	background-color: #222222;
+	width: 33%;
+}
+
+.btn-outline-secondary:hover {
+	background-color: #666666;
+	color: #FFFFFF;
+}
+
+.modal-content {
+	background-color: #BBBBBB;
+}
+
+.modal-header {
+	background-color: #222222;
+	color: #FFFFFF;
+	font-weight: bold;
+	border-top-right-radius: 6px;
+	border-top-left-radius: 6px;
+}
+
+.btn-primary {
+	background-image: -webkit-linear-gradient(top,#DD0000 0,#880000 100%);
+	background-image: -o-linear-gradient(top,#DD0000 0,#880000 100%);
+	background-image: -webkit-gradient(linear,left top,left bottom,from(#DD0000),to(#880000));
+	background-image: linear-gradient(to bottom,#DD0000 0,#880000 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffDD0000', endColorstr='#ff880000', GradientType=0);
+	filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+	background-repeat: repeat-x;
+	border-color: #880000;
+	color: #FFFFFF;
+	min-width: 120px;
+	min-height: 34px;
+	border-radius: 5px;
+}
+
+.btn-primary:focus, .btn-primary:active:hover {
+	background-color:#880000;
+}
+
+.btn-primary:hover {
+	background-color:#880000;
+}
+
+.btn-secondary {
+	background-image: -webkit-linear-gradient(top,#DDDDDD 0,#333333 100%);
+	background-image: -o-linear-gradient(top,#DDDDDD 0,#333333 100%);
+	background-image: -webkit-gradient(linear,left top,left bottom,from(#DDDDDD),to(#333333));
+	background-image: linear-gradient(to bottom,#DDDDDD 0,#333333 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffDDDDDD', endColorstr='#ff333333', GradientType=0);
+	filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+	background-repeat: repeat-x;
+	border-color: #333333;
+	color: #FFFFFF;
+	min-width: 120px;
+	min-height: 34px;
+	border-radius: 5px;
+}
+
+.btn-secondary:focus, .btn-secondary:active:hover {
+	background-color:#333333;
+}
+
+.btn-secondary:hover {
+	background-color:#333333;
+}
+
+.input-group-addon:first-child {
+	min-width: 74px;
+	font-weight: bold;
+	text-align: left;
+}
+
+.container {
+	min-width: 345px;
+	max-width: 470px;
+}
+
+.row {
+	min-height: 34px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+/* Game Board Styles */
+
+#board {
+	margin-right: auto;
+	margin-left: auto;
+	min-width: 345px;
+	max-width: 470px;
+	min-height: 250px;
+	max-height: 250px;
+}
+
+.hold {
+	background-color: #aaaaaa !important;
+	background-image: url('../images/held.png');
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.result {
+	
+	font-weight: bold;
+	margin: 15px 15px 0 15px;
+	border-radius: 5px;
+	min-height: 34px;
+}
+.result > span {
+	line-height: 34px;
+}
+
+.lost {
+	background-color: #DD0000;
+	color: #FFF;
+}
+
+.replenish {
+	background-color: #0000FF;
+	color: #FFF;
+}
+
+.win {
+	background-color: #DDDD00;
+	color: #000;
+}
